@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,600,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-em-color: #FE6767; 
+    --alternative-text-color: #545454;
+    --alternative-white-color: #FFFFFF;
+    --paragraph-color: #B6B6B6;     
+}
+
+body{
+
+    background-image: url("../assets/Background Object.png");
+    background-position: right;
+    background-repeat: no-repeat;
+  
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 8% 0 8%;
+}
+
+.menu_title {
+    color:  var(--main-em-color);
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+
+}
+.menu_options {
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu_options_bike {
+    text-decoration: none;
+    color: var(--alternative-text-color);
+    
+}
+
+.menu_options_links{
+    text-decoration: none;
+    color: var(--alternative-white-color);
+}
+
+.presantation{
+    padding: 5% 0 0 8%;
+    display: flex;
+    flex-direction: row;
+}
+
+.presantation__info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+   
+}
+
+.presantation__info__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.presantation__info__strong{
+    color: var(--main-em-color);
+}
+
+.presantation__info__paragraph {
+    color: var(--paragraph-color);
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.presantation__info__links {
+    margin-top: 10%;
+}
+
+.presantation__info__links__tdrive{
+    width: 300px;
+    height: 50px;
+    background-color: var(--main-em-color);
+    color: var(--alternative-white-color);
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 1% 4% 1% 4%;
+    box-shadow: 2px 2px 5px var(--alternative-text-color);
+  
+}
+
+.presantation__images{
+    display: flex;
+}
+
+.presantation__images__fbike{
+    flex-grow: 2;
+}
+
+.presantation__images__hbike{
+    align-self: baseline;
+    flex-grow: 1;
+}
